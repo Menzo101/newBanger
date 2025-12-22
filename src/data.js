@@ -3,7 +3,7 @@ import galleryone from "./assets/galleryone.png";
 import gallerytwo from "./assets/gallerytwo.png";
 import gallerythree from "./assets/gallerythree.png";
 import galleryfour from "./assets/oappicture.png";
-import iconone from "./assets/icon.png";
+import iconone from "./assets/iconone.png";
 import icontwo from "./assets/icontwo.png";
 import iconthree from "./assets/iconthree.png";
 
