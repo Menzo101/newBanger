@@ -1,0 +1,26 @@
+.heroSection {
+    max-width: 1512px;
+    margin: 0 auto;
+}
+
+.heroSection img {
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .heroSection {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        display: none
+    }
+}
+
+@media (max-width:480px) {
+    .heroSection {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        display: none
+    }
+}
