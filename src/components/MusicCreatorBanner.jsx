@@ -1,5 +1,5 @@
 import React from "react";
-import musicBanner from "../assets/slowBanner.png";
+import musicBanner from "../assets/slowbanner.png";
 import "./musiccreator.css";
 import musicbannertwo from "../assets/lastcta.png";
 
