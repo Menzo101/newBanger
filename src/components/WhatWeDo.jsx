@@ -1,6 +1,6 @@
 import React from "react";
 import "./whatwedo.css";
-import influenceLogo from "../assets/Campaignicon.png";
+import influenceLogo from "../assets/campaignicon.png";
 import blogIcon from "../assets/blogicon.png";
 import musicIcon from "../assets/playlisticon.png";
 const WhatWeDo = () => {
