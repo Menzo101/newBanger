@@ -1,8 +1,8 @@
 header {
     display: flex;
-    max-width: 1512px;
+
     width: 100%;
-    margin: 0 auto;
+
     justify-content: space-between;
     gap: 10px;
     align-items: center;
