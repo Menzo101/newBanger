@@ -46,23 +46,32 @@
     margin: 6rem auto;
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 15px;
+
 
 }
 
 /* Card */
 .how-card {
+
     background: #ffffff;
     border-radius: 18px;
     padding: 60px 10px;
     position: relative;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: border ease-in-out;
+}
+
+.how-card:hover {
+    border: 4px solid rgba(255, 97, 77, 1);
+
+
 }
 
 /* Icon wrapper */
 .icon-wrapper {
     position: absolute;
-    top: -28px;
+    top: 8px;
     left: 24px;
     width: 56px;
     height: 56px;
