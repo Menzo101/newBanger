@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    color: #fff;
+}
+
+/* Background image grid feel */
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    background: url("../assets/backgroundimage.jpeg") center/cover no-repeat;
+    filter: blur(1px);
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Main Content */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 850px;
+    margin: auto;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.8rem;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.highlight {
+    display: block;
+    color: #ff3b3b;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #cfcfcf;
+}
+
+.cta-btn {
+    margin-top: 30px;
+    padding: 15px 34px;
+    background: #ff3b3b;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background: #e13232;
+}
+
+/* Social Proof */
+.social-proof {
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 0.9rem;
+    color: #bdbdbd;
+}
+
+.avatars {
+    display: flex;
+}
+
+.avatars img {
+    width: 80px;
+
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    /* margin-left: -8px; */
+
+}
+
+/* Featured On Strip */
+.featured-strip {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 40px;
+    color: #9a9a9a;
+    font-size: 0.95rem;
+}
+
+.featured-label {
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.ticker {
+    overflow: hidden;
+    flex: 1;
+}
+
+.ticker-track {
+    display: flex;
+    gap: 50px;
+    width: max-content;
+    animation: tickerScroll 22s linear infinite;
+}
+
+.ticker-track span {
+    white-space: nowrap;
+    opacity: 0.9;
+}
+
+/* Ticker Animation */
+@keyframes tickerScroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}

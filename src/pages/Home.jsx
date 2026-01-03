@@ -11,12 +11,14 @@ import Footer from "../components/Footer";
 import StepByStep from "../components/StepByStep";
 import NewBangerDifference from "../components/NewBangerDifference";
 import ResponsiveHeroSection from "../components/ResponsiveHeroSection";
+import SecondComponent from "../components/SecondComponent";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <HeroComponent />
+      <SecondComponent />
+      {/* <HeroComponent /> */}
       <div className="responsiveherosection">
         <ResponsiveHeroSection />
       </div>

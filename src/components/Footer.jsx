@@ -157,6 +157,10 @@ const Footer = () => {
             </Link>
           </div>
         </div>
+        <div className="footerline"></div>
+        <p className="ftSign">
+          &copy; 2026 All Right Reserved NewBanger Digital Limited{" "}
+        </p>
       </section>
     </>
   );
