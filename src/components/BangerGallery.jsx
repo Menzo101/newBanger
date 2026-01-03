@@ -1,6 +1,6 @@
 import React from "react";
 import "./bangergallery.css";
-import { people } from "../data.js";
+import { peopleTwo } from "../data.js";
 
 const BangerGallery = () => {
   return (
@@ -10,7 +10,7 @@ const BangerGallery = () => {
           Connect with music professionals and grow your <br /> network
         </h2>
         <div className="network-grid">
-          {people.map((item, index) => (
+          {peopleTwo.map((item, index) => (
             <div key={index} className="network-card-wrapper">
               <div className="card-header">
                 <span className="card-label">{item.label}</span>

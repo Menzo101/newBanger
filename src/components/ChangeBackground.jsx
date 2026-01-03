@@ -1,36 +1,52 @@
 import React from "react";
+import { peopleTwo } from "../data.js";
 import "./changebackground.css";
 
 const ChangeBackground = () => {
   return (
     <>
-      <section class="network-section">
-        <h2 class="network-title">
+      <section className="network-section">
+        <h2 className="network-title">
           Connect with music professionals and grow your <br /> network
         </h2>
 
-        <div class="network-grid">
-          <div class="network-card-wrapper">
-            <div class="card-header">
-              <span class="card-label">INFLUENCERS</span>
-              <span class="card-line"></span>
+        <div className="network-grid">
+          {peopleTwo.map((item, index) => (
+            <div key={index} className="network-card-wrapper">
+              {/* Default image */}
+              <img
+                src={item.img}
+                alt={item.label}
+                className="network-card default-img"
+              />
+
+              {/* Hover image */}
+              <img
+                src={item.hoverImg}
+                alt={item.label}
+                className="network-card hover-img"
+              />
+
+              {/* Top text + arrow (default on top of image) */}
+              <div className="card-header">
+                <div className="div">
+                  <span className="card-label">{item.label}</span>
+                </div>
+
+                <img src={item.icon} alt="arrow" className="card-arrow" />
+              </div>
+
+              {/* Overlay text + arrow + red line (appear on hover over hover image) */}
+              <div className="card-overlay">
+                <span className="card-label">{item.label}</span>
+                <img src={item.icon} alt="arrow" className="card-arrow" />
+                <div className="red-line"></div>
+              </div>
             </div>
-
-            <img src="img/influencer.jpg" class="network-card default-img" />
-
-            <img
-              src="img/influencer-hover.jpg"
-              class="network-card hover-img"
-            />
-
-            <div class="card-overlay">
-              <span class="card-label">INFLUENCERS</span>
-              <span class="card-line"></span>
-            </div>
-          </div>
+          ))}
         </div>
 
-        <button class="card-btn">Promote your music</button>
+        <button id="card-btn">Promote your music</button>
       </section>
     </>
   );

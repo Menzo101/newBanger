@@ -3,14 +3,22 @@ import galleryone from "./assets/galleryone.png";
 import gallerytwo from "./assets/gallerytwo.png";
 import gallerythree from "./assets/gallerythree.png";
 import galleryfour from "./assets/oappicture.png";
+import galleryfive from "./assets/influlenceroverlay.png";
+import gallerysix from "./assets/bloggeroverlay.png";
+
 import iconone from "./assets/iconone.png";
 import icontwo from "./assets/icontwo.png";
 import iconthree from "./assets/iconthree.png";
 
-export const people = [
-  { label: "INFLUENCERS", img: galleryone, icon: arrow },
-  { label: "BLOGGER", img: gallerytwo, icon: arrow },
-  { label: "DISC-JOCKEY", img: gallerythree, icon: arrow },
+export const peopleTwo = [
+  { label: "INFLUENCERS", img: galleryone, hoverImg: gallerysix, icon: arrow },
+  { label: "BLOGGER", img: gallerytwo, hoverImg: galleryfive, icon: arrow },
+  {
+    label: "DISC-JOCKEY",
+    img: gallerythree,
+    hoverImg: galleryfour,
+    icon: arrow,
+  },
   { label: "OAPs", img: galleryfour, icon: arrow },
 ];
 
@@ -35,6 +43,7 @@ export const steps = [
   },
 ];
 
+//
 export const faqs = [
   {
     question: "What is the purpose of NewBanger?",
