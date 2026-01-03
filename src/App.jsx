@@ -11,11 +11,13 @@ import HeroComponent from "./components/HeroComponent";
 import Testimonial from "./components/Testimonial";
 import Slider from "./components/Slider";
 import Home from "./pages/Home";
+import ChangeBackground from "./components/ChangeBackground";
 
 function App() {
   return (
     <>
       <Home />
+      {/* <ChangeBackground /> */}
       {/* <Navbar />
       <HeroComponent />
       <WhatWeDo />

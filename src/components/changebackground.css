@@ -1,0 +1,17 @@
+.network-section {
+    padding: 60px 20px;
+}
+
+.network-title {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.network-grid {
+    max-width: 1324px;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+}
