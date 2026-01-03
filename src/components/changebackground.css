@@ -88,7 +88,7 @@
 }
 
 /* Hover overlay (text + arrow + red line) */
-.card-overlay {
+/* .card-overlay {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -98,7 +98,26 @@
     opacity: 0;
     transition: all 0.5s ease;
     z-index: 2;
+} */
+
+.card-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 3;
+    background: transparent;
+    /* 🔥 no black overlay */
 }
+
+.network-card-wrapper:hover .card-overlay {
+    opacity: 1;
+}
+
 
 .network-card-wrapper:hover .card-overlay {
     opacity: 1;

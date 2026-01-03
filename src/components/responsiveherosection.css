@@ -13,7 +13,7 @@
         width: 100%;
         margin: 0 auto;
         position: relative;
-        display: block;
+        display: none;
     }
 }
 
@@ -22,6 +22,6 @@
         width: 100%;
         margin: 0 auto;
         position: relative;
-        display: block;
+        display: none;
     }
 }

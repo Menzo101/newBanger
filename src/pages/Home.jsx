@@ -12,12 +12,14 @@ import StepByStep from "../components/StepByStep";
 import NewBangerDifference from "../components/NewBangerDifference";
 import ResponsiveHeroSection from "../components/ResponsiveHeroSection";
 import SecondComponent from "../components/SecondComponent";
+import ChangeBackground from "../components/ChangeBackground";
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <SecondComponent />
+      {/* <SecondComponent /> */}
       {/* <HeroComponent /> */}
       <div className="responsiveherosection">
         <ResponsiveHeroSection />
@@ -29,8 +31,8 @@ const Home = () => {
       <div className="hidden-component">
         <NewBangerDifference />
       </div>
+      <ChangeBackground />
 
-      <BangerGallery />
       <div className="parent-container">
         <StepByStep />
         <TrustUs />

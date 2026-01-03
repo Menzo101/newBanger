@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Home />
-      <ChangeBackground />
+
       {/* <Navbar />
       <HeroComponent />
       <WhatWeDo />

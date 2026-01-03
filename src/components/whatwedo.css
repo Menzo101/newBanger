@@ -112,12 +112,18 @@
 
 @media(max-width:768px) {
     .whatWeDo-container {
-        display: none;
+        display: block;
+
     }
 }
 
 @media (max-width:480px) {
     .whatWeDo-container {
-        display: none;
+        display: block;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
     }
 }
