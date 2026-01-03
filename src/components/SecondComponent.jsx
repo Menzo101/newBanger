@@ -1,6 +1,8 @@
 import React from "react";
 import "./secondcomponent.css";
 import usericon from "../assets/usericon.png";
+import { BsMegaphoneFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 const SecondComponent = () => {
   return (
     <>
@@ -16,8 +18,8 @@ const SecondComponent = () => {
 
           <p>
             Connect with top influencers, playlist curators, and music bloggers
-            instantly. NewBanger makes music promotion simple, fast, and
-            affordable for every artist.
+            instantly <br /> NewBanger makes music promotion simple, fast,{" "}
+            <br /> and affordable for every artist.
           </p>
 
           <button className="cta-btn">Promote Your Music</button>
@@ -26,7 +28,13 @@ const SecondComponent = () => {
             <div className="avatars">
               <img src={usericon} />
             </div>
-            <span>⭐ 4.9 (2k+ reviews)</span>
+            <div className="newContainer">
+              <div className="icons">
+                <BsMegaphoneFill id="trumpet" />
+                <span id="stars"> ⭐⭐⭐⭐⭐⭐</span>
+              </div>
+              <p>Trusted by over 1000 musicians and curators</p>
+            </div>
           </div>
         </div>
 
@@ -46,6 +54,15 @@ const SecondComponent = () => {
               <span>Techpoint</span>
               <span>The Guardian</span>
               <span>Punch</span>
+
+              <span>TechCabal</span>
+              <span>Vanguard</span>
+              <span>Techpoint</span>
+              <span>The Guardian</span>
+              <Link>
+                {" "}
+                <span>Punch</span>
+              </Link>
             </div>
           </div>
         </div>
