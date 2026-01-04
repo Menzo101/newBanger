@@ -144,6 +144,25 @@ li {
 }
 
 
+
+#ham-btn {
+    display: none;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.24%;
+    background-color: rgba(255, 97, 77, 1);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.hamburger-element {
+    display: none;
+}
+
 /* responssive */
 
 @media (max-width:768px) {
@@ -196,9 +215,7 @@ li {
     .menu-toggle {
         display: block;
         position: relative;
-        right: 1rem;
-
-
+        right: 0
     }
 
     /* .menu-toggle {
@@ -212,6 +229,7 @@ li {
         width: 100%;
         background: #fff;
 
+
         /* 🔥 THIS CONTROLS VISIBILITY */
         height: 0;
         overflow: hidden;
@@ -220,7 +238,7 @@ li {
     }
 
     .nav.open {
-        height: 260px;
+        height: 400px;
         /* adjust if needed */
     }
 
@@ -235,4 +253,48 @@ li {
     .signup-element {
         display: none;
     }
+
+    .signup-btn {
+        display: block;
+        background-color: transparent;
+        color: black;
+    }
+
+    #ham-btn {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: -0.24%;
+        background-color: rgba(255, 97, 77, 1);
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+
+    .hamburger-element {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+
+    }
+
+    .login-btn {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: -0.24%;
+        background-color: rgba(255, 97, 77, 1);
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+
 }

@@ -39,11 +39,17 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+
+          <div className="hamburger-element">
+            <Link className="login-btn">Sign Up</Link>
+            <Link className="signup-btn">Login</Link>
+          </div>
         </nav>
         <div className="signup-element">
           <Link className="login-btn">Login</Link>
           <Link className="signup-btn">Sign Up</Link>
         </div>
+        <Link id="ham-btn">Sign Up</Link>
         <div
           className={`menu-toggle ${menuOpen ? "active" : ""}`}
           onClick={() => setMenuOpen(!menuOpen)}

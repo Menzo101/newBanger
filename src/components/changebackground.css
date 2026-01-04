@@ -1,7 +1,6 @@
 .network-section {
     padding: 60px 20px;
     background: #fff;
-
 }
 
 .network-title {
@@ -64,8 +63,9 @@
     gap: 12px;
     z-index: 2;
     display: flex;
-
     flex-direction: row-reverse;
+
+
     transition: opacity 0.5s ease;
     color: black
 }
@@ -88,18 +88,7 @@
 }
 
 /* Hover overlay (text + arrow + red line) */
-/* .card-overlay {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    opacity: 0;
-    transition: all 0.5s ease;
-    z-index: 2;
-} */
-
+/* .card-overlay { position: absolute; bottom: 20px; left: 20px; display: flex; align-items: center; gap: 12px; opacity: 0; transition: all 0.5s ease; z-index: 2; } */
 .card-overlay {
     position: absolute;
     bottom: 20px;
@@ -111,13 +100,12 @@
     transition: opacity 0.5s ease;
     z-index: 3;
     background: transparent;
-    /* 🔥 no black overlay */
+    flex-direction: row-reverse;
 }
 
 .network-card-wrapper:hover .card-overlay {
     opacity: 1;
 }
-
 
 .network-card-wrapper:hover .card-overlay {
     opacity: 1;
@@ -137,8 +125,6 @@
 }
 
 /* Red line below overlay text */
-
-
 /* Button */
 #card-btn {
     display: block;
@@ -154,6 +140,130 @@
     cursor: pointer;
 }
 
+.card-header,
+.card-overlay {
+    justify-content: flex-start;
+}
+
 .card-arrow {
-    margin-left: 6rem;
+    margin-top: 1rem;
+    margin-right: -1rem;
+    display: block;
+    /* reset bad shift */
+}
+
+/* 🔒 Lock stack order everywhere */
+.card-header .card-label,
+.card-overlay .card-label {
+    order: 1;
+}
+
+.card-header .card-arrow,
+.card-overlay .card-arrow {
+    order: 2;
+}
+
+.card-header,
+.card-overlay {
+    display: flex;
+    flex-direction: row;
+    /* always label → arrow */
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    flex-direction: row-reverse;
+}
+
+.card-label {
+
+    display: block;
+}
+
+
+@media (max-width: 1024px) {
+    .network-title {
+        font-size: 36px;
+    }
+
+    .network-card {
+        height: 320px;
+        margin-top: 3rem;
+    }
+}
+
+/* ========================= MOBILE (≤ 768px) ========================= */
+@media (max-width: 768px) {
+    .network-section {
+        padding: 40px 16px;
+    }
+
+    .network-title {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .network-grid {
+        gap: 16px;
+    }
+
+    .network-card {
+        height: 260px;
+        margin-top: 2rem;
+    }
+
+    /* 🔥 FIX LABEL START POSITION */
+    .card-header,
+    .card-overlay {
+        left: 16px;
+        right: auto;
+        flex-direction: row;
+        /* no reverse */
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card-label {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .card-arrow {
+        width: 24px;
+        height: 24px;
+        margin-left: 0;
+        /* critical */
+    }
+
+    #card-btn {
+        width: 100%;
+        max-width: 320px;
+        padding: 14px 20px;
+        font-size: 13px;
+    }
+}
+
+/* ========================= SMALL MOBILE (≤ 480px) ========================= */
+@media (max-width: 480px) {
+    .network-title {
+        font-size: 22px;
+    }
+
+    .network-card {
+        height: 220px;
+    }
+
+    .network-card-wrapper {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 16px;
+        cursor: pointer;
+
+    }
+
+    .network-card {
+        margin-top: 6rem;
+    }
+
+
 }
