@@ -21,9 +21,9 @@ const Home = () => {
       <SecondComponent />
       {/* <SecondComponent /> */}
       {/* <HeroComponent /> */}
-      <div className="responsiveherosection">
+      {/* <div className="responsiveherosection">
         <ResponsiveHeroSection />
-      </div>
+      </div> */}
       <div className="whatWeDo-container">
         <WhatWeDo />
       </div>

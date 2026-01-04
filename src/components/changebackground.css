@@ -245,12 +245,18 @@
 /* ========================= SMALL MOBILE (≤ 480px) ========================= */
 @media (max-width: 480px) {
     .network-title {
-        font-size: 22px;
+        font-size: 30px;
+        line-height: 1.5;
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+
+        line-height: 1.5;
+        text-align: center;
     }
 
-    .network-card {
+    /* .network-card {
         height: 220px;
-    }
+    } */
 
     .network-card-wrapper {
         position: relative;
@@ -264,6 +270,7 @@
     .network-card {
         margin-top: 6rem;
     }
+
 
 
 }

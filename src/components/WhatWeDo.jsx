@@ -10,7 +10,7 @@ const WhatWeDo = () => {
         <h1 className="unlock-title">Unlock Your Music’s Potentials</h1>
         <p className="unlock-subtitle">
           NewBanger stands out by giving artists real, targeted <br /> music
-          promotion that builds genuine listeners—not just <br /> numbers
+          promotion that builds genuine listeners—not just numbers
         </p>
 
         <div className="features">
