@@ -206,7 +206,7 @@
     }
 
     .hero-content p {
-        margin-top: 1rem;
+        margin-top: 2.5rem;
         font-size: 16px;
         font-family: Montserrat;
         line-height: 1.5;
@@ -222,7 +222,7 @@
         margin: 4rem auto;
         align-items: center;
 
-        text-align: center;
+
     }
 
     #trumpet {
@@ -237,28 +237,9 @@
         width: 10px;
     }
 
-    .newContainer p {
-
-        font-size: 14px;
-        font-family: Montserrat;
-
-
-
-    }
-
-    .hero-content {
-        position: relative;
-        z-index: 2;
-        max-width: 850px;
-        margin: 2rem auto;
-        align-items: center;
-
-        text-align: center;
-    }
-
     .cta-btn {
-        margin-top: 10px;
-        padding: 18px 50px;
+        margin-top: 2rem;
+        padding: 18px 30px;
         background-color: rgba(255, 97, 77, 1);
         border: none;
         border-radius: 20px;
