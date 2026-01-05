@@ -5,7 +5,7 @@ import gallerythree from "./assets/gallerythree.png";
 import galleryfour from "./assets/oappicture.png";
 import galleryfive from "./assets/influlenceroverlay.png";
 import gallerysix from "./assets/bloggeroverlay.png";
-
+import galleryseven from "./assets/singing.png";
 import iconone from "./assets/iconone.png";
 import icontwo from "./assets/icontwo.png";
 import iconthree from "./assets/iconthree.png";
@@ -19,7 +19,7 @@ export const peopleTwo = [
     hoverImg: galleryfour,
     icon: arrow,
   },
-  { label: "OAPs", img: galleryfour, icon: arrow },
+  { label: "OAPs", img: galleryfour, hoverImg: galleryseven, icon: arrow },
 ];
 
 export const steps = [
