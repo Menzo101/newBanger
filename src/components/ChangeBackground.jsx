@@ -9,7 +9,8 @@ const ChangeBackground = () => {
         {" "}
         <h2 className="network-title">
           {" "}
-          Connect with music professionals and grow your <br /> network{" "}
+          Connect with music professionals and grow your{" "}
+          <br className="desktop-br" /> network{" "}
         </h2>{" "}
         <div className="network-grid">
           {" "}

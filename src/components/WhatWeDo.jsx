@@ -9,8 +9,9 @@ const WhatWeDo = () => {
       <section className="unlock-section">
         <h1 className="unlock-title">Unlock Your Music’s Potentials</h1>
         <p className="unlock-subtitle">
-          NewBanger stands out by giving artists real, targeted <br /> music
-          promotion that builds genuine listeners—not just numbers
+          NewBanger stands out by giving artists real, targeted{" "}
+          <br className="desktop-br" /> music promotion that builds genuine
+          listeners—not just numbers
         </p>
 
         <div className="features">
@@ -21,8 +22,8 @@ const WhatWeDo = () => {
 
             <h3>Go Viral with Influencers</h3>
             <p>
-              Partner with social media stars who push your <br /> tracks to new
-              listeners
+              Partner with social media stars who push your{" "}
+              <br className="desktop-br" /> tracks to new listeners
             </p>
           </div>
 
@@ -32,8 +33,8 @@ const WhatWeDo = () => {
             </div>
             <h3>Get Featured on Top Blogs</h3>
             <p>
-              Your music deserves the spotlight. Let music <br /> bloggers share
-              your story
+              Your music deserves the spotlight. Let music{" "}
+              <br className="desktop-br" /> bloggers share your story
             </p>
           </div>
 
@@ -43,8 +44,8 @@ const WhatWeDo = () => {
             </div>
             <h3>Hit the Playlists That Matter</h3>
             <p>
-              Reach curated playlists and grow your streams with <br /> fans who
-              actually listen
+              Reach curated playlists and grow your streams with{" "}
+              <br className="desktop-br" /> fans who actually listen
             </p>
           </div>
         </div>

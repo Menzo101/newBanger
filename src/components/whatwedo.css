@@ -97,6 +97,10 @@
 
 }
 
+.desktop-br {
+    display: inline;
+}
+
 .cta-btn:hover {
     background: #e94b2e;
 }
@@ -142,5 +146,29 @@
         color: rgba(33, 35, 34, 1);
         text-align: center;
 
+    }
+}
+
+@media (max-width: 380px) {
+
+
+    .unlock-title {
+        font-size: 32px;
+
+    }
+
+    .unlock-subtitle {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0;
+        color: rgba(33, 35, 34, 1);
+        text-align: justify;
+
+    }
+
+    .desktop-br {
+        display: none;
     }
 }

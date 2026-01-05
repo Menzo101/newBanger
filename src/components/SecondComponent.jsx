@@ -18,8 +18,9 @@ const SecondComponent = () => {
 
           <p>
             Connect with top influencers, playlist curators, and music bloggers
-            instantly <br /> NewBanger makes music promotion simple, fast,{" "}
-            <br /> and affordable for every artist.
+            instantly <br className="desktop-br" /> NewBanger makes music
+            promotion simple, fast, <br className="desktop-br" /> and affordable
+            for every artist.
           </p>
 
           <button className="cta-btn">Promote Your Music</button>
