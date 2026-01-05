@@ -199,7 +199,6 @@
         font-size: 48px;
         font-family: Montserrat;
         font-weight: 600;
-
         letter-spacing: 1%;
         line-height: 1;
         max-width: 450px;
@@ -385,7 +384,7 @@
 
 @media (max-width:380px) {
     .hero-content h1 {
-        margin-top: 2rem;
+        margin-top: 5rem;
         font-size: 36px;
         font-family: Montserrat;
         font-weight: 600;
