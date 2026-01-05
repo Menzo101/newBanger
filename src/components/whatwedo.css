@@ -3,32 +3,26 @@
     text-align: center;
     background: #fff;
     max-width: 1384px;
-
     margin: 2rem auto;
+
 
 }
 
 .unlock-title {
     font-family: Montserrat;
     font-weight: 600;
-
     font-size: 48px;
-
     line-height: 1.5;
-    letter-spacing: 0%;
     text-align: center;
 
-    margin-bottom: 10px;
 }
 
 .unlock-subtitle {
     font-family: Montserrat;
     font-weight: 400;
-
     font-size: 20px;
-
-    line-height: 24px;
-    letter-spacing: 1.5;
+    line-height: 1.5;
+    letter-spacing: 1;
     color: rgba(33, 35, 34, 1);
     text-align: center;
 
@@ -49,7 +43,7 @@
     border-radius: 16px;
     transition: transform 0.2s ease;
     width: 100%;
-
+    margin-bottom: 4rem;
     box-shadow: 2px 2px 2px 2px rgb(241, 234, 234)
 }
 
@@ -65,13 +59,8 @@
 .feature-card h3 {
     font-family: Montserrat;
     font-weight: 600;
-
     font-size: 20px;
-
     line-height: 32px;
-
-
-
     margin-bottom: 10px;
 }
 
@@ -87,6 +76,7 @@
 }
 
 .cta-btn {
+
     background: #ff5a3c;
     color: white;
     border: none;
@@ -94,7 +84,8 @@
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 3rem;
+    margin-top: 5rem;
+
 
     font-family: Montserrat;
     font-weight: 600;

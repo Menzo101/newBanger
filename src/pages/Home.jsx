@@ -19,11 +19,7 @@ const Home = () => {
     <>
       <Navbar />
       <SecondComponent />
-      {/* <SecondComponent /> */}
-      {/* <HeroComponent /> */}
-      {/* <div className="responsiveherosection">
-        <ResponsiveHeroSection />
-      </div> */}
+   
       <div className="whatWeDo-container">
         <WhatWeDo />
       </div>

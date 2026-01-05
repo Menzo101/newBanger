@@ -242,7 +242,6 @@
     }
 }
 
-/* ========================= SMALL MOBILE (≤ 480px) ========================= */
 @media (max-width: 480px) {
     .network-title {
         font-size: 30px;
