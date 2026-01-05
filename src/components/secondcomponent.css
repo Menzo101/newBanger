@@ -202,7 +202,7 @@
 
         letter-spacing: 1%;
         line-height: 1;
-        width: 450px;
+        max-width: 450px;
         text-align: center;
     }
 
@@ -379,7 +379,6 @@
         font-size: 36px;
         font-family: Montserrat;
         font-weight: 600;
-
         letter-spacing: 1%;
         line-height: 1.2;
         width: 370px;
