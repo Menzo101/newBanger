@@ -372,3 +372,17 @@
 
     }
 }
+
+@media (max-width:380px) {
+    .hero-content h1 {
+        margin-top: 2rem;
+        font-size: 36px;
+        font-family: Montserrat;
+        font-weight: 600;
+
+        letter-spacing: 1%;
+        line-height: 1.2;
+        width: 370px;
+        text-align: center;
+    }
+}
