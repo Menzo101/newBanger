@@ -215,6 +215,15 @@
 
 
     }
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 850px;
+    margin: 4rem auto;
+    align-items: center;
+
+    text-align: center;
+}
 
     #trumpet {
         color: black;
