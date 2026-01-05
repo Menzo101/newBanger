@@ -195,7 +195,7 @@
 
 @media (max-width:480px) {
     .hero-content h1 {
-        margin-top: 2rem;
+        margin-top: 4rem;
         font-size: 48px;
         font-family: Montserrat;
         font-weight: 600;
@@ -215,15 +215,16 @@
 
 
     }
-.hero-content {
-    position: relative;
-    z-index: 2;
-    max-width: 850px;
-    margin: 4rem auto;
-    align-items: center;
 
-    text-align: center;
-}
+    .hero-content {
+        position: relative;
+        z-index: 2;
+        max-width: 850px;
+        margin: 4rem auto;
+        align-items: center;
+
+        text-align: center;
+    }
 
     #trumpet {
         color: black;
