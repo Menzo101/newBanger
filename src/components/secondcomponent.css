@@ -364,7 +364,7 @@
 
 @media (max-width:380px) {
     .hero-content h1 {
-        margin-top: 5rem;
+        margin-top: 1rem;
         font-size: 36px;
         font-family: Montserrat;
         font-weight: 600;
@@ -375,7 +375,7 @@
     }
 
     .hero-content p {
-        margin-top: 2.5rem;
+        margin-top: 1rem;
         font-size: 16px;
         font-family: Montserrat;
         line-height: 1.5;
@@ -388,7 +388,7 @@
         position: relative;
         z-index: 2;
         max-width: 850px;
-        margin: 4rem auto;
+        margin: 1rem auto;
         align-items: center;
 
 
@@ -407,8 +407,8 @@
     }
 
     .cta-btn {
-        margin-top: 2.5rem;
-        padding: 18px 30px;
+        margin-top: 1rem;
+        padding: 18px 28px;
         background-color: rgba(255, 97, 77, 1);
         border: none;
         border-radius: 20px;
@@ -434,13 +434,13 @@
 
         color: #bdbdbd;
 
-        max-width: 400px;
-        margin: 2.5rem auto;
+        max-width: 300px;
+        margin: 1rem auto;
 
     }
 
     .icons {
-        margin-top: 1rem;
+        margin-top: 10px;
 
         display: flex;
         align-items: center;
@@ -496,13 +496,13 @@
 
     .featured-strip {
         position: absolute;
-        bottom: 15px;
+        bottom: 4px;
         width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
         gap: 20px;
-        padding: 12px 40px;
+        padding: 12px 0;
         color: #9a9a9a;
         font-size: 16px;
 
